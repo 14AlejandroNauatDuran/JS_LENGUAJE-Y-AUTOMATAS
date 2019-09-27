@@ -1,0 +1,5 @@
+var historia = "\";
+
+var expresion = /[A-Z][^aeiou][a-z]+/g
+result = historia.match(expresion);
+console.log(result);
